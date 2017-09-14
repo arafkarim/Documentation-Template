@@ -6,8 +6,8 @@
  ================================
 */
 
-/* topnav */
 @media screen and (max-width: 600px) {
+  /* topnav */
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
 	float: right;
@@ -30,7 +30,20 @@
   .topnav a:nth-of-type(1){
     margin-top: 45px;
   }
-  .col-table-cell{
-    min-height: auto;
+  .topnav h2{text-align: center;}
+  .topnav h2 span{
+    text-align: center;
+    width: 100%;
   }
+  
+  /* accordian */
+  .col-table-cell{min-height: auto;}
+}
+
+@media screen and (max-width: 440px) {
+  /* topnav */
+  .topnav.responsive .icon{top: 75px;}
+  
+  /* main-container */
+  .main-container{margin-top: 140px;}
 }

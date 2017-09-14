@@ -19,18 +19,11 @@ function myFunction(){
 $(window).scroll(function(){
   if($(this).scrollTop()>20){
     $('.topnav').addClass('hideTopnav');
-    $('.main-container').css('margin-top', '148px');
+    /*$('.main-container').css('margin-top', '148px');*/
   } else{
     $('.topnav').removeClass('hideTopnav');
-    $('.main-container').css('margin-top', '111px');
+    /*$('.main-container').css('margin-top', '111px');*/
   }
-});
-
-/* main-container */
-$(document).ready(function(){
-    $("#menuClick").click(function(){
-        alert('hello');
-    });
 });
 
 /* accordian */

@@ -94,7 +94,10 @@ a.accordion{
   padding: 12px 12px 12px 30px;
   background: #f4f4f4;
 }
-a.accordion.active, button.accordion.active, button.accordion:hover, a.accordion:hover {
+a.accordion.active, 
+button.accordion.active, 
+button.accordion:hover, 
+a.accordion:hover {
     background-color: #ddd;
 }
 button.accordion:after {
@@ -136,7 +139,9 @@ div.panel {
 }
 
 /* main-container */
-.main-container{margin-top: 140px;}
+.main-container{margin-top: 111px;}
+
+/* notes */
 .notes{
     background-color: rgba(52, 152, 219, 0.1);
     border-left: 6px solid rgba(52, 152, 219, 1);
@@ -144,6 +149,8 @@ div.panel {
     margin: 8px;
     width: 100%;
 }
+
+/* codepade */
 .codepade{
 	overflow: auto;
 	width: 100%;
